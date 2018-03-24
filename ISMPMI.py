@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 plt.style.use('ggplot')
 
-df = quandl.get('ISM/MAN_PMI', authtoken='XPC5T_rCEEd5aNnys5rn')
+df = quandl.get('ISM/MAN_PMI', authtoken='YOUR AUTH TOKEN')
 
 print(df.tail(5))
 
